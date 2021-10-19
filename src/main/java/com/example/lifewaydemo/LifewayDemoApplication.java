@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LifewayDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LifewayDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(LifewayDemoApplication.class, args);
+    }
 
 }
