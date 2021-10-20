@@ -15,4 +15,7 @@
    * Define Unit Tests to exercise endpoints
    * Define Swagger Documentation
 4. Stage three - User Interface
-
+   * Install nvm-windows
+   * Install npm/node
+   * Create base app using starter
+   * Review tutorials, try to figure this out
