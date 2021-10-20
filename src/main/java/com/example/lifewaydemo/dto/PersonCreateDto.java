@@ -7,6 +7,14 @@ public class PersonCreateDto {
     private String email;
     private String phone;
 
+    public PersonCreateDto(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public PersonCreateDto() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
