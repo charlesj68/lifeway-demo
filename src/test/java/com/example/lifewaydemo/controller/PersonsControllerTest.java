@@ -81,26 +81,26 @@ class PersonsControllerTest {
     // TODO: withInvalidId_thenGetPersonReturns404
 
     @Test
-    @Disabled
+    @Disabled("TODO")
     void withEmptyData_thenGetPersonsReturns204() {
     }
 
     @Test
-    @Disabled
+    @Disabled("TODO")
     void withOneEntry_thenGetPersonsReturns200() {
     }
 
     // TODO: withMultipleEntry_thenGetPersonsReturns200
 
     @Test
-    @Disabled
+    @Disabled("TODO")
     void withValidId_thenUpdatePersonReturns201() {
     }
 
     // TODO: withInvalidId_thenUpdatePersonReturns404
 
     @Test
-    @Disabled
+    @Disabled("TODO")
     void withValidId_thenDeletePersonReturns204 () {
     }
 

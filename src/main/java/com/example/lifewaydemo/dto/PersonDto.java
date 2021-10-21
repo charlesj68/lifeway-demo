@@ -1,5 +1,10 @@
 package com.example.lifewaydemo.dto;
 
+/* **********
+A simple POJO provided to separate the database entity objects from the API interface objects. This version
+implements the id element for instances where this is needed, primarily GETs. A separate DTO is also provided
+which removes the id field for cases where that would be problematic, i.e., POST and PUT.
+********** */
 
 public class PersonDto {
     private long id;

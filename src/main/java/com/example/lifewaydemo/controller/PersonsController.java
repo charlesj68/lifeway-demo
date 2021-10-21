@@ -39,7 +39,7 @@ public class PersonsController {
             List<PersonDto> dtoPersons = persons.stream().map(mapper::PersonToPersonDto).collect(Collectors.toList());
             return new ResponseEntity<>(dtoPersons, HttpStatus.OK);
         } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -62,7 +62,7 @@ public class PersonsController {
             PersonDto dtoPerson = mapper.PersonToPersonDto(newPerson);
             return new ResponseEntity<>(dtoPerson, HttpStatus.CREATED);
         } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 

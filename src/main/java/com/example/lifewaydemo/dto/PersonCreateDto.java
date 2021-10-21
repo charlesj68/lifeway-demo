@@ -1,5 +1,9 @@
 package com.example.lifewaydemo.dto;
 
+/* **********
+A simple POJO provided to separate the database entity objects from the API interface objects. This version
+removes the id field for cases where it would introduce security issues, i.e., POST and PUT.
+********** */
 
 public class PersonCreateDto {
     private String firstName;
